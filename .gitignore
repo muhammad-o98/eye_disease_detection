@@ -7,7 +7,6 @@ dataset/
 # Dataset folder
 Eye Disease Image Dataset
 
-
 # Bytecode / caches
 __pycache__/
 *.pyc
@@ -15,3 +14,6 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+
+echo "models/*.h5" >> .gitignore
+echo "models/*.keras" >> .gitignore
