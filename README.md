@@ -1,16 +1,16 @@
-# 🔬 Eye Disease Detection Using Deep Learning
+# Eye Disease Detection Using Deep Learning
 
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org/)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![TensorFlow]
+[![Python]
+[![Jupyter]
 
 An advanced deep learning project for automated detection and classification of 10 different eye diseases using convolutional neural networks and real-world medical imaging data.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements a state-of-the-art eye disease detection system capable of identifying 10 distinct ocular conditions with high accuracy. The system leverages transfer learning with SE-ResNet architecture and comprehensive data augmentation techniques to achieve robust performance on real-world medical images.
 
-### 🏥 Detected Eye Conditions
+### Detected Eye Conditions
 
 - **Central Serous Chorioretinopathy** - Fluid accumulation under retina
 - **Diabetic Retinopathy** - Diabetes-related retinal damage  
@@ -23,7 +23,7 @@ This project implements a state-of-the-art eye disease detection system capable 
 - **Retinal Detachment** - Retina separation from eye wall
 - **Retinitis Pigmentosa** - Progressive vision loss
 
-## 📊 Dataset Distribution
+## Dataset Distribution
 
 ![Dataset Summary](dataset_summary_fixed_wrapped_total.png)
 
@@ -32,7 +32,7 @@ The dataset comprises **21,577 total images** distributed across training, valid
 - **Validation**: 1,062 images (4.9%) - Original images only
 - **Test**: 1,062 images (4.9%) - Original images only
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 ![SE-ResNet Architecture](se_resnet_cnn.png)
 
@@ -84,7 +84,7 @@ The model provides explainable AI through GradCAM heatmaps showing decision regi
 ![GradCAM Examples](evaluation_outputs/gradcam_box_DR425.jpg.png)
 ![GradCAM Glaucoma](evaluation_outputs/gradcam_box_Glaucoma1174.jpg.png)
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 ```bash
@@ -96,7 +96,7 @@ pip install -r requirements.txt
 ### Usage
 ```python
 # Load and run the main training notebook
-jupyter notebook build.ipynb
+Jupyter notebook build.ipynb
 
 # Or explore model evaluation
 jupyter notebook see.ipynb
@@ -115,21 +115,19 @@ eye_disease_detection/
 
 ## 💡 Key Features
 
-- **🎯 High Accuracy**: 82.96% overall accuracy with 92% balanced accuracy
-- **⚡ GPU Optimized**: Apple M1 Pro Metal acceleration
-- **🔍 Explainable AI**: GradCAM visualizations for model interpretability
-- **📊 Comprehensive Evaluation**: Multiple metrics and calibration analysis
-- **🔄 Data Augmentation**: Enhanced training with augmented medical images
-- **⚖️ Class Balance**: Weighted approach handling imbalanced medical data
+- ** High Accuracy**: 82.96% overall accuracy with 92% balanced accuracy
+- ** GPU Optimized**: Apple M1 Pro Metal acceleration
+- ** Explainable AI**: GradCAM visualizations for model interpretability
+- ** Comprehensive Evaluation**: Multiple metrics and calibration analysis
+- ** Data Augmentation**: Enhanced training with augmented medical images
+- ** Class Balance**: Weighted approach handling imbalanced medical data
 
-## 🔬 Technical Implementation
+## Technical Implementation
 
-The project employs advanced computer vision techniques including transfer learning, data augmentation, and model calibration to achieve state-of-the-art performance in medical image classification. The SE-ResNet architecture with attention mechanisms provides superior feature extraction for complex medical imaging patterns.
+The project employs advanced computer vision techniques, including transfer learning, data augmentation, and model calibration, to achieve state-of-the-art performance in medical image classification. The SE-ResNet architecture with attention mechanisms provides superior feature extraction for complex medical imaging patterns.
 
-## 📚 Dependencies
+## Dependencies
 
 Key technologies: TensorFlow, Keras, OpenCV, Matplotlib, Pandas, NumPy, Scikit-learn
 
 ---
-
-**Built with ❤️ for advancing medical AI diagnostics**
