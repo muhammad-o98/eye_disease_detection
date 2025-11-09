@@ -15,5 +15,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-echo "models/*.h5" >> .gitignore
-echo "models/*.keras" >> .gitignore
+# Model files
+models/*.h5
+models/*.keras
+models/*.ckpt
