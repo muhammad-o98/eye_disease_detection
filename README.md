@@ -113,7 +113,7 @@ eye_disease_detection/
 └── se_resnet_cnn.png        # Architecture diagram
 ```
 
-## 💡 Key Features
+## Key Features
 
 - ** High Accuracy**: 82.96% overall accuracy with 92% balanced accuracy
 - ** GPU Optimized**: Apple M1 Pro Metal acceleration
