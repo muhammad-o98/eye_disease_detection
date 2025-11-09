@@ -1,0 +1,17 @@
+# Python virtual environment
+venv/
+
+# Dataset folder
+dataset/
+
+# Dataset folder
+Eye Disease Image Dataset
+
+
+# Bytecode / caches
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
